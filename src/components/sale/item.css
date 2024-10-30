@@ -1,0 +1,282 @@
+/* Styles for the <li> element */
+.product-list-item {
+    list-style: outside none none;
+    border-color: rgb(226, 232, 240);
+    overflow-wrap: break-word;
+    border-width: 0px;
+    border-style: solid;
+    box-sizing: border-box;
+    /* z-index: -10; */
+  }
+  
+  /* Styles for the outer <div> inside <li> */
+  .product-container {
+    width: 10.63rem;
+    border: 0px none rgb(26, 32, 44);
+    overflow-wrap: break-word;
+    box-sizing: border-box;
+    padding-bottom: 60px;
+  }
+  
+  /* Styles for the container with padding and min-height */
+  .product-info-container {
+    position: relative;
+    padding: 8px;
+    min-height: 260.6px;
+    border-color: rgb(226, 232, 240);
+    overflow-wrap: break-word;
+    border-width: 0px;
+    border-style: solid;
+    box-sizing: border-box;
+  }
+  
+  /* Styles for the product image container */
+  .product-image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 4px;
+    position: relative;
+    border-color: rgb(226, 232, 240);
+    overflow-wrap: break-word;
+    border-width: 0px;
+    border-style: solid;
+    box-sizing: border-box;
+  }
+  
+  /* Styles for the product image */
+  .product-image {
+    object-fit: cover;
+    width: 6.875rem;
+    height: 110px;
+    border-color: rgb(226, 232, 240);
+    overflow-wrap: break-word;
+    max-width: 100%;
+    display: block;
+    border-style: none;
+    border-width: 0px;
+    box-sizing: border-box;
+  }
+  
+  /* Styles for the container with price information */
+  .price-container {
+    display: flex;
+    flex-wrap: wrap;
+    border-color: rgb(226, 232, 240);
+    overflow-wrap: break-word;
+    border-width: 0px;
+    border-style: solid;
+    box-sizing: border-box;
+  }
+  
+  /* Styles for the price paragraph */
+  .price-paragraph {
+    font-family: "Noir Pro";
+    font-weight: 500;
+    line-height: 16.8px;
+    font-size: 14px;
+    letter-spacing: normal;
+    color: rgb(51, 51, 51);
+    border-color: rgb(226, 232, 240);
+    overflow-wrap: break-word;
+    margin: 0px;
+    border-width: 0px;
+    border-style: solid;
+    box-sizing: border-box;
+  }
+  
+  /* Styles for the link box overlay */
+  .link-box-overlay {
+    position: static;
+    border-color: rgb(226, 232, 240);
+    overflow-wrap: break-word;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(26, 32, 44);
+    text-decoration: none solid rgb(26, 32, 44);
+    border-width: 0px;
+    border-style: solid;
+    box-sizing: border-box;
+  }
+  
+  /* Styles for the container inside the overlay */
+  .overlay-container {
+    border-color: rgb(226, 232, 240);
+    overflow-wrap: break-word;
+    border-width: 0px;
+    border-style: solid;
+    box-sizing: border-box;
+  }
+  
+  /* Styles for the product brand paragraph */
+  .product-brand-paragraph {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    font-family: "Noir Pro";
+    font-weight: 300;
+    line-height: 14.4px;
+    font-size: 12px;
+    letter-spacing: normal;
+    border-color: rgb(226, 232, 240);
+    overflow-wrap: break-word;
+    margin: 0px;
+    border-width: 0px;
+    border-style: solid;
+    box-sizing: border-box;
+  }
+  
+  /* Styles for the product title heading */
+  .product-title-heading {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16.8px;
+    letter-spacing: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    word-break: break-all;
+    border-color: rgb(226, 232, 240);
+    overflow-wrap: anywhere;
+    margin: 0px;
+    border-width: 0px;
+    border-style: solid;
+    box-sizing: border-box;
+  }
+  
+  /* Styles for the product package size paragraph */
+  .package-size-paragraph {
+    color: rgb(102, 107, 115);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    font-weight: 300;
+    line-height: 14.4px;
+    font-size: 12px;
+    letter-spacing: normal;
+    border-color: rgb(226, 232, 240);
+    overflow-wrap: break-word;
+    margin: 0px;
+    border-width: 0px;
+    border-style: solid;
+    box-sizing: border-box;
+  }
+  
+  /* Styles for the container with class css-8keand */
+  .additional-container {
+    /* Your styles for the container with class css-8keand */
+  }
+  
+  /* Styles for the container with class css-1q5omjq */
+  .another-container {
+    /* Your styles for the container with class css-1q5omjq */
+  }
+  
+  /* Styles for the container with class css-fcebb8 */
+  .yet-another-container {
+    /* Your styles for the container with class css-fcebb8 */
+  }
+  
+  /* Styles for the container with width: 45px */
+  .small-container {
+    width: 45px;
+    /* Your styles for the container with width: 45px */
+  }
+  
+  /* Styles for the button with class css-mudsm6 */
+  .action-button {
+    display: flex;
+    appearance: none;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    user-select: none;
+    position: absolute;
+    white-space: nowrap;
+    vertical-align: middle;
+    outline: rgba(0, 0, 0, 0) solid 2px;
+    outline-offset: 2px;
+    line-height: 19.2px;
+    border-radius: 20px;
+    font-weight: 300;
+    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+    transition-duration: 0.2s;
+    padding: 8px;
+    min-height: 0px;
+    font-family: "Noir Pro";
+    font-size: 16px;
+    letter-spacing: normal;
+    background-color: rgb(0, 129, 127);
+    color: rgb(255, 255, 255);
+    padding-inline: 8px;
+    right: 0px;
+    height: 40px;
+    width: 2.5rem;
+    border: 1px solid rgb(0, 129, 127);
+    min-width: 40px;
+    border-color: rgb(0, 129, 127);
+    overflow-wrap: break-word;
+    cursor: pointer;
+    background: rgb(0, 129, 127) none repeat scroll 0% 0% / auto padding-box border-box;
+    text-transform: none;
+    overflow: visible;
+    margin: 0px;
+    border-width: 1px;
+    border-style: solid;
+    box-sizing: border-box;
+  }
+  
+  /* Styles for the SVG icon inside the button */
+  .action-button-icon {
+    width: 1.5rem;
+    height: 24px;
+    display: block;
+    line-height: 16px;
+    flex-shrink: 0;
+    color: rgb(255, 255, 255);
+    border-color: rgb(226, 232, 240);
+    overflow-wrap: break-word;
+    border-width: 0px;
+    border-style: solid;
+    box-sizing: border-box;
+  }
+  
+  /* Styles for the span inside the button */
+  .button-text {
+    border: 0px none rgb(255, 255, 255);
+    clip: rect(0px, 0px, 0px, 0px);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    padding: 0px;
+    overflow: hidden;
+    white-space: nowrap;
+    position: absolute;
+    border-color: rgb(255, 255, 255);
+    overflow-wrap: break-word;
+    border-width: 0px;
+    border-style: none;
+    box-sizing: border-box;
+  }
+
+  .links{
+    padding-right: 24px;
+    text-decoration: none;
+    color: black;
+    text-decoration: underline;
+  }
+
+  .yes{
+   padding-left: 20px;
+  }
+
+  .no{
+    display: none;
+  }
+  

@@ -1,0 +1,45 @@
+{
+  "name": "products",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@clerk/nextjs": "^4.29.5",
+    "@lottiefiles/react-lottie-player": "^3.5.3",
+    "@next/font": "^14.0.4",
+    "@vercel/speed-insights": "^1.0.9",
+    "animejs": "^3.2.2",
+    "axios": "^1.6.2",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^2.5.1",
+    "lord-icon-element": "^4.1.2",
+    "lottie-web": "^5.12.2",
+    "next": "14.0.4",
+    "overlayscrollbars": "^2.5.0",
+    "react": "^18.2.0",
+    "react-content-loader": "^6.2.1",
+    "react-dom": "^18.2.0",
+    "react-draggable": "^4.4.6",
+    "react-headroom": "^3.2.1",
+    "react-horizontal-scroll-grid": "^0.1.4",
+    "react-horizontal-scrolling": "^0.1.13",
+    "react-loading-skeleton": "^3.4.0",
+    "react-medium-image-zoom": "^5.1.10",
+    "react-pdf": "^7.7.1",
+    "react-scrollbars-custom": "^4.1.1",
+    "react-sliding-pane": "^7.3.0",
+    "react-sticky": "^6.0.3",
+    "react-to-pdf": "^1.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "typescript": "^5"
+  }
+}

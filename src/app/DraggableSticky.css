@@ -1,0 +1,19 @@
+.draggable-sticky {
+    position: absolute;
+    background-color: lightblue;
+    padding: 10px;
+    cursor: grab;
+  }
+  
+  .draggable-sticky:active {
+    cursor: grabbing;
+  }
+  
+  /* .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: lightblue;
+  }
+   */

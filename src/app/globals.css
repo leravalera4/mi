@@ -1,0 +1,20 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+/* [data-rmiz]{
+  z-index: -10;
+} */
+
+.overlay{
+z-index: 9999;
+}
+
+.slide-pane__overlay.overlay-after-open{
+  z-index: 2;
+}
+
+.slide-pane_from_right.content-after-open{
+  width:92%;
+}

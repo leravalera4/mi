@@ -1,0 +1,9 @@
+.container {
+    overflow-x: auto;
+    white-space: nowrap;
+    width: 100%;
+  }
+  
+  .scrollable {
+    display: inline-flex;
+  }
